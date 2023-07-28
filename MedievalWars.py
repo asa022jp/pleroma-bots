@@ -46,7 +46,7 @@ def attack():
     # respond with the units selected and time that it will take, ask for confirmation, expire after 2 minutes, overwrite
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def show_map():
     try:
@@ -65,14 +65,14 @@ def show_map():
         # respond with list of towns ranked by distance from user's town and image
         # delete image after using it
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def overview():
     # respond with overview
     try:
         # reply with resources, resource gain per hour, population, pop capacity
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def ranking():
     # respond with ranking list by points
@@ -83,45 +83,45 @@ def ranking():
             # add row to reply with ranking
 
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def build():
     # 
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def recruit():
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error.  fix this."
 
 def research():
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def delete_account():
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error.  fix this."
 
 def battle():
     # calculate battle, respond with reports
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def militia():
     # respond with militia activated or deactivated, remind this will affect resources
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 def confirm():
     try:
     except:
-        reply = "Server error. @antichrist_hater@shitposter.club fix this."
+        reply = "Server error. fix this."
 
 # Connecting to DB
 con = sqlite3.connect("medievalwars.db")
